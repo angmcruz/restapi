@@ -8,8 +8,8 @@ const serviceAccount = JSON.parse(process.env.FIREBASE_ADMIN_API)
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
-const admin = require('firebase-admin');
-    
+
+  
  /* Referencia al módulo swagger-ui-express */
  const swaggerUi = require('swagger-ui-express')
 
